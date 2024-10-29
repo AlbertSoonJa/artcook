@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+h1,h2,h3,h4, .gugi-font {
+    font-family: "Gugi", sans-serif;
+}
+
+/* 네비게이션 섹션 */
+.nav-link:hover,
+.nav-link.active {
+    
+    color:#ffc107 !important;
+}
+
+header {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8),
+     rgba(0,0,0,0.2)), url(../imeges/main-bg.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+#sns-links {
+    background-image:
+    linear-gradient(rgba(0,0,0,0.8),
+    rgba(0,0,0,0.2)),
+    url(../imeges/sns-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+}
+
+/* 서비스 섹션 */
+.card-hover:hover {
+    background-color: #ffc10726;
+    cursor: pointer;
+}
+
+/* 뉴스섹션 */
+#news {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5),
+    rgba(0,0,0,0.2)), url(../imeges/news-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* 연락처 주소 */
+@media (min-width:768px) and (max-width:1024px) {
+.text {
+    font-size: 14px;
+}
+}
